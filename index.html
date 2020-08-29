@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Electronic Portfolio</title>
 </head>
-<body>
-  
+<body> 
+
+
     <!--header-->
     <div class="container-fluid">
       <div class="row">
         <div id="headerbnr" class="col rounded-top">        
-          <h1 class="text-center"><img src="/images/e_bnr.png" class="img-fluid" alt=""></h1>        
+          <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>        
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
 
     <!--navbar-->
     <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
-      <a class="navbar-brand" href="index.html">HOME</a>
+      <a class="navbar-brand ml-3" href="index.html">HOME</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,43 +41,46 @@
     </nav>
 
 
-
-
     <!--Main jumbotron-->
-    <div id="jmbotxt" class="jumbotron jumbotron-fluid  bg-transparent mb-0">
-      <div  class="container">
-        <br>
-        <br>                 
-        <h1 class="display-4 ">Hello There!</h1>
-        <br>
-        <br>  
-        <br>
-        <br>
-        <br>
-            <p class="mb-0"> Welcome To my Electronic Portfolio, feel free to translate the site to your convenience.</p>
-        
-            <p class="mb-0">This is a simple and funny landing page for my e-portfolio like site.</p>
-              
-            <p class="mb-0">This site was written as an exercise given while following a PHP MySQL training course in 2020.</p>
-             
-              <p class="mb-0">It quickly lists popular Web design tools and sums up how dynamic Web contents are produced.</p>              
-        <br>
-        <br>
-        <br>
-        <br>  
-        <br>   
-      </div>    
-      <hr style="width:75%">  
+    <div id="jmbotxt" class="jumbotron jumbotron-fluid bg-transparent mb-0">
+
+          <div class="container">
+            <br>
+            <br>                 
+            <h1 class="display-4 ">Hello There!</h1>
+            <br>
+            <br>  
+            <br>
+            <br>
+            <br>
+                <p class="mb-0"> Welcome to my Electronic Portfolio, feel free to translate the site to your convenience.</p>
+                <p class="mb-0">This is a simple and funny landing page for my e-portfolio like site.</p> 
+                <p class="mb-0">This site was written as an exercise given while following a PHP MySQL training course in 2020.</p>
+                <p class="mb-0">Developed with <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg" alt="VS logo" class="logo" width="18px" > <strong>Visual Studio Code</strong> first, the code is then hosted by the Microsoft service <img src="https://pages.github.com/images/logo.svg" alt="GitHub Pages" class="logo" width="9%">. </p>
+                <p class="mb-0">It quickly lists popular Web design tools and sums up how dynamic Web contents are produced.</p>              
+            <br>
+            <br>
+            <br>
+            <br>  
+            <br>   
+          </div>    
+          <hr style="width:50%">  
+
+
             <!--card-->    
-            <div id="px" class="container-fluid">                
-              <h1 id="cardheader" class="display-5  text-center mb-5 mt-5 pt-5">How This Site Has Been Made?</h1>
+            <div class="container-fluid">                
+              <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">How This Site Has Been Made?</h1>
+              <br>
+              <br>
+              <p class="text-center"><u>The site has been written from scratch using the documentation of the following components instead of using a prebuilt layout:</u></p> 
+              <br>
               <br>
               <div id="cardtxt" class="row pt-4 pb-5">
                   <div class="col pagination justify-content-center">
                     <div class="card" style="width: 220px;">
                     <img src="/images/card_html.png" class="card-img-top img-fluid" alt="html icon">
                       <div class="card-body">
-                        <h3 class="card-title ">HTML</h3>
+                        <h3 class="card-title">HTML</h3>
                         <p class="card-text "> HTML is the most basic building block of the Web by defining the meaning and structure of web content.</p>
                       </div>
                     </div>
@@ -86,7 +89,7 @@
                     <div class="card" style="width: 220px;">
                       <img src="/images/card_bootstrap.png" class="card-img-top img-fluid" alt="bootstrap icon">
                       <div class="card-body">
-                        <h3 class="card-title "><br>Bootstrap</h3>
+                        <h3 class="card-title"><br><span class="notranslate">Bootstrap</span></h3>
                         <p class="card-text ">Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites.</p>
                       </div>
                     </div>
@@ -95,7 +98,7 @@
                     <div class="card" style="width: 220px;">
                       <img src="/images/card_javascript.png" class="card-img-top img-fluid" alt="javasrip icon">
                       <div class="card-body">
-                        <h3 class="card-title ">JavaScript</h3>
+                        <h3 class="card-title">JavaScript</h3>
                         <p class="card-text">Provides tools to help Web developers to build dynamic and interactive contents embedded into web pages.</p>
                       </div>
                     </div>
@@ -103,53 +106,55 @@
               </div>
           </div>
       <br>
-      <hr style="width:75%">
+      <hr style="width:50%">
+
+
           <!--media list-->
-          <div  class="container">                                        
-            <h1 class="display-5  text-center pb-5 mb-5 mt-5 pt-5">Web Features Embedded Into The Page?</h1>                                   
-            <p class=""><u>A quick list of the few Web design features embedded into the page:</u></p> 
+          <div class="container">                                        
+            <h1 class="display-5 text-center pb-5 mb-5 mt-5 pt-5">Web Features Embedded Into The Page?</h1>                                   
+            <p><u>A quick list of the few Web design features embedded into the page:</u></p> 
             <br>
             <ul class="list-unstyled">
                 <li class="media my-4">
                   <img src="/images/media_responsive.png" class="img-fluid mr-5" alt="arrow icon">
                   <div class="media-body">
-                    <h5 class="mt-0 mb-1 "><u>Responsive</u></h5>
-                   <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it looks good on all devices from desktops to tablets and smartphones.
+                    <h5 class="mt-0 mb-1"><u><span class="notranslate">Responsive</span></u></h5>
+                    <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it looks good on all devices from desktops to tablets and smartphones.
                     <br>
-                    This page will resize automatically if the browser shrunks or if viewed on a smartphone.
-                  </p> 
+                    This page will resize automatically if the browser shrunks or if viewed on a smartphone.</p> 
                   </div>
                 </li>
                 <br>
                 <li class="media my-4">
                   <img src="/images/media_css.png" class="img-fluid mr-5" alt="css icon">
                   <div class="media-body">
-                    <h5 class="mt-0 mb-1 "><u>Additional CSS sheet</u></h5>
+                    <h5 class="mt-0 mb-1"><u>Additional CSS sheet</u></h5>
                     <p>
-                    Developers often override or customize default Bootstrap CSS styles when working on web development projects. <br>
+                     Developers often override or customize default Bootstrap CSS styles when working on web development projects.<br>
                      Most developers do it to make changes to Bootstrap fonts, borders, colors, or other Bootstrap styles. 
-                    <br>
-                    In this page the main background color, the layout, the font style are added on top of the Bootstrap styles.
-                  </p>
+                     <br>
+                     In this page the main background color, the layout, the font style are added on top of the Bootstrap styles.
+                   </p>
                   </div>
                 </li>
                 <br>
                 <li class="media my-4">
                   <img src="/images/media_jscript.png" class="img-fluid mr-5" alt="script icon">
                   <div class="media-body">
-                    <h5 class="mt-0 mb-1 "><u>Scripts</u></h5>
-                    <p>
-                    A dynamic page can send and updated informations that were not available when the web page was created.
+                    <h5 class="mt-0 mb-1"><u>Scripts</u></h5>
+                    <p>A dynamic page can send and updated informations that were not available when the web page was created.
                     <br>
                     Scripts can be viewed as small computer programs written in a variety of scripting languages like JavaScript, VBScript, Perl, PHP, ASP, updating dynamically the page information.
-                    In this page the Translate form, the date, the time, the font type, etc, come from scripts.
-                  </p>
+                    In this page the Translate form, the date, the time, the font type, etc, come from scripts.</p>
+                  </div>
                 </li>
             </ul>       
             <br>    
             <br> 
           </div> 
-          <hr style="width:75%">
+          <hr style="width:50%">
+
+
           <!--carousel-->
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">Web Development Tools?</h1>
@@ -166,7 +171,7 @@
             <div class="carousel-inner">
               <p class="text-center"><u>A quick list of few popular Web design tools from <a href="https://www.freecodecamp.org/news/web-development-2020/">this</a> article:</u></p> 
               <br>
-              <div class="carousel-item active ">
+              <div class="carousel-item active">
                 <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--2-.png" class="d-inherit w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
@@ -200,37 +205,34 @@
           <br>
           <br>
           <br>
-          <hr style="width:75%">
+          <hr style="width:50%">
           <br>
+
+
           <!--bottom-->
-          <div  class="container">
+          <div class="container">
             <br>
             <br>                 
-            <h1 class="display-5 text-center ">Thank you for browsing this page!</h1>
-            <br>
-            <br>  
+            <h2 class="display-5 text-center">Thank you for browsing this page!</h1> 
             <br>
             <br>
             <br>                
-            <p class=" text-center">
+            <p class="text-center">
               Feel free to navigate through the <a href="aboutme.html">About Me</a> and the <a href="resume.html">Resume</a> page.<br>
               Have a wonderful day.<br>
               Best Regards.
             </p>      
-            <br>
-            <br>
             <br> 
           </div>    
       </div>
 
+
       <!--footer-->
       <div class="container-fluid bg-primary">
         <div class="row">
-          <div id="footerbnr" class="col justify-content-center rounded">
-            
-            <p class="display-5  text-center pt-5">Date & Time: <span id="datetime"></span></p>
-            
-            <p class="text-right ">Wimpzilla@08.29.2020</p>
+          <div id="footerbnr" class="col justify-content-center rounded">    
+            <p class="display-5 text-center pt-5">Date & Time: <span id="datetime"></span></p>
+            <p class="text-right">Wimpzilla@08.29.2020</p>
           </div>
         </div>
       </div>
@@ -248,7 +250,4 @@
 <script>var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));</script>
 <script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');} </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-  
-   
 </html>
