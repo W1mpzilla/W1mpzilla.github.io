@@ -69,3 +69,10 @@ hr {
 body {
     top: 0px !important; 
 }
+#vernazza{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+}
+    

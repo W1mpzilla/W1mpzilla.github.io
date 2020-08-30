@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Electronic Portfolio</title>
 </head>
-<body>
+<body class="user-select-none"> 
   
-   <!--header-->
-   <div class="container-fluid">
-    <div class="row">
-      <div id="headerbnr" class="col rounded-top">        
-        <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt=""></h1>        
+
+    <!--header-->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="headerbnr" class="col rounded-top">        
+          <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>        
+        </div>
       </div>
     </div>
-  </div>
+
 
     <!--navbar-->
     <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
@@ -35,21 +36,22 @@
             <a class="nav-link" href="resume.html">RESUME</a>
           </li>
         </ul>
-        <div id="google_translate_element" class="mr-5"></div>
+        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
+        <div id="google_translate_element" class="mr-4 d-inline"></div>
       </div>
     </nav>
 
-    
 
+    <!--Main pdf-->
     <div id="jmbotxt" class="jumbotron jumbotron-fluid  bg-transparent mb-0">
       <div  class="container">
         <br>
-        <h1 class="display-">Downloadable Resume:</h1>
+        <h1>Downloadable Resume:</h1>
         <br>
         <br>
         <object data="files/relax.pdf" type="application/pdf" width="100%" height="1000px"> 
           <p>It appears you don't have a PDF plugin for this browser.
-           No biggie... you can <a href="files/relax.pdf">click here to
+          You can <a href="files/relax.pdf">click here to
           download the PDF file.</a></p>  
         </object>
         <br>
@@ -64,12 +66,10 @@
           <div  class="container">
             <br>
             <br>                 
-            <h2 class="display-5 text-center ">Thank you for browsing this page!</h2>  
-            <br>
+            <h3 class="display-5 text-center">Thank you for browsing this page!</h3>  
             <br>
             <br>                
-            <p class=" text-center">
-              Feel free to navigate through the <a href="index.html">Home</a> and the <a href="aboutme.html">About Me</a> page.<br>
+            <p class="text-center">
               Have a wonderful day.<br>
               Best Regards.
             </p>      
@@ -78,20 +78,20 @@
           </div>
           </div>
 
-      
 
-  
+          <!--footer-->
+          <div class="container-fluid bg-primary">
+            <div class="row">
+              <div id="footerbnr" class="col justify-content-center rounded">
+                <p class="display-5  text-center pt-5">Date & Time: <span id="datetime"></span></p>
+                <p class="text-right ">Wimpzilla@08.29.2020</p>
+              </div>
+            </div>
+            </div>
 
-  
-<!--footer-->
-<div class="container-fluid bg-primary">
-<div class="row">
-  <div id="footerbnr" class="col justify-content-center rounded">
-    <p class="display-5  text-center pt-5">Date & Time: <span id="datetime"></span></p>
-    <p class="text-right ">Wimpzilla@08.29.2020</p>
-  </div>
-</div>
-</div>
+
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -99,5 +99,4 @@
 <script>var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));</script>
 <script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');} </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-   
 </html>
