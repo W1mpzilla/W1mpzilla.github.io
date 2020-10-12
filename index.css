@@ -5,26 +5,26 @@
     border: 5px solid black;
 }
 #headertxtaboutme {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cambo', serif;
     color: black;
     font-size: medium;
 }
 #jmbotxt{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cambo', serif;
     color:black;
     font-size: medium;
     background: rgb(251,255,206);
     background: linear-gradient(53deg, rgba(251,255,206,1) 0%, rgba(205,183,255,1) 100%);
 }
 #jmbotxtaboutme{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cambo', serif;
     color:black;
     font-size: medium;
     background: rgb(251,255,206);
     background: linear-gradient(53deg, rgba(251,255,206,1) 0%, rgba(205,183,255,1) 100%);
 }
 #navtxt{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cambo', serif;
     font-size: medium;
     color: white;
     background-color: #000 !important;
@@ -55,7 +55,7 @@ hr {
     background: url(images/bg_footer.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Cambo', serif; 
     border: 5px solid black;
 }
 .carousel-indicators li{
