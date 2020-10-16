@@ -1,134 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet"> 
-    <title>Electronic Portfolio</title>
-</head>
-<body class="user-select-none"> 
-  
 
-    <!--header-->
-    <div class="container-fluid">
-      <div class="row">
-        <div id="headerbnr" class="col rounded-top">        
-          <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>        
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+  <title>Davide Amoroso Electronic Portfolio</title>
+</head>
+
+<body class="user-select-none">
+
+
+  <!--Header-->
+  <div class="container-fluid">
+    <div class="row">
+      <div id="headerbnr" class="col rounded-top">
+        <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>
       </div>
     </div>
+  </div>
 
 
-    <!--navbar-->
-    <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
-      <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
-          </li>
-        </ul>
-        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
-        <div id="google_translate_element" class="mr-4 d-inline"></div>
+
+  <!--Navbar-->
+  <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
+    <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
+        </li>
+      </ul>
+      <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+        style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
+      <div id="google_translate_element" class="mr-4 d-inline"></div>
+    </div>
+  </nav>
+
+
+
+  <!--Accordion wrapper-->
+  <div class="accordion" id="accordionExample">
+
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            LinkedIn Profile Link And Downloadable Resume
+          </button>
+        </h2>
       </div>
-    </nav>
+      <!-- Card body -->
+      <div id="collapseOne" class="collapse show jmbotxt" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
 
-
-    <!--Main pdf-->
-    <div id="jmbotxt" class="jumbotron jumbotron-fluid  bg-transparent mb-0">
-      <div  class="container">
-        <br>
-        <br>
-        <h1><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/" class="text-decoration-none">LinkedIn Profile</a> And Downloadable Resume :</h1>
-        <br>
-        <br>
-        
-        <object data="files/da_cv_resume.pdf" type="application/pdf" width="100%" height="1000px"> 
-          <p>It appears you don't have a PDF plugin for this browser.
-          You can <a href="files/da_cv_resume.pdf">click here to
-          download the PDF file.</a></p>  
-        </object>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr style="width:85%">
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-          <!--Main computer rig-->
-          <div class="card mb-3">
-            <img src="images/pict_rig.png" class="card-img-top" alt="computer">
-            <div class="card-body">
-              <h5 class="card-title">Main Computer Specs And <a href="https://hwbot.org/user/wimpzilla/#My_Submissions" class="text-decoration-none">HWBOT Overclocker Profile</a></h5>
-              <p class="card-text list-inlin">
-                <li class="list-inline-item"><span class="text-info">CPU:</span>R5 3600@1.46v@4.15hz All Cores</li>  
-                <li class="list-inline-item"><span class="text-info">RAM:</span>16GB DDR4@1900Mhz@C16 1T@1.5v</li> 
-                <li class="list-inline-item"><span class="text-info">MB:</span>X370-F Strix</li>
-                <li class="list-inline-item"><span class="text-info">GPU:</span>GTX1080@2152/1300Mhz</li>
-                <li class="list-inline-item"><span class="text-info">STORAGE:</span>NVME SSD 250GB</li>
-                <li class="list-inline-item"><span class="text-info">STORAGE:</span>SATA SSD 250GB</li>
-                <li class="list-inline-item"><span class="text-info">PSU:</span>Corsair 600Watt</li>
-                <li class="list-inline-item"><span class="text-info">COMS:</span>Turtle Beach Headset</li>
-                <li class="list-inline-item"><span class="text-info">COOLING:</span>Custom 120VGA + H100i</li>
-                <li class="list-inline-item"><span class="text-info">RADS:</span>2x 240 AIO Radiators</li>
-                <li class="list-inline-item"><span class="text-info">CASE:</span>MB511 RGB</li>
-                <li class="list-inline-item"><span class="text-info">DISPLAY:</span>Omen 25" 144Hz</li>
+          <!--Main pdf-->
+          <div id="" class="container jmbotxt bg-transparent mb-0">
+            <div class="container">
+              <br>
+              <br>
+              <h1 class="display-5"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
+                  class="text-decoration-none">LinkedIn
+                  Profile Link</a> And Downloadable Resume</h1>
+              <br>
+              <br>
+              <br>
+              <object data="files/da_cv_resume.pdf" type="application/pdf" width="100%" height="1000px">
+                <p>It appears you don't have a PDF plugin for this browser.
+                  You can <a href="files/da_cv_resume.pdf">click here to
+                    download the PDF file.</a></p>
+              </object>
+              <br>
+              <br>
+              <br>
+              <hr style="width:85%">
             </div>
+          </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr style="width:85%">
-
-        <!--bottom-->
-          <div  class="container">
-            <br>
-            <br>                 
-            <h3 class="display-5 text-center">Thank you for browsing this page!</h3>  
-            <br>
-            <br>                
-            <p class="text-center">
-              Have a wonderful day.<br>
-              Best Regards.
-            </p>      
-            <br>
-          </div>    
-          </div>
-          </div>
+      </div>
+      <!-- Accordion card -->
 
 
-          <!--footer-->
-          <div class="container-fluid bg-primary">
-            <div class="row">
-              <div id="footerbnr" class="col justify-content-center rounded">
-                <p class="display-5  text-center pt-5">Date & Time: <span id="datetime"></span></p>
-                <p class="text-right ">Wimpzilla@08.29.2020</p>
+      <!-- Accordion card -->
+      <div class="card">
+        <div class="card-header jmbotxt" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+              data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+              onclick="scrollToTop()"><i class="fa fa-plus"></i>
+              Main Computer Specs And HWBOT Overclocker Profile.
+          </h2>
+        </div>
+        <!-- Card body -->
+        <div id="collapseTwo" class="collapse jmbotxt" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <!--Main computer rig-->
+            <div class="card mb-3">
+              <img src="images/pict_rig.png" class="card-img-top" alt="computer">
+              <div class="card-body jmbotxt">
+                <h5 class="card-title">Main Computer Specs And <a
+                    href="https://hwbot.org/user/wimpzilla/#My_Submissions" class="text-decoration-none">HWBOT
+                    Overclocker Profile</a></h5>
+                <p class="card-text list-inlin">
+                  <li class="list-inline-item"><span class="text-info">CPU:</span>R5 3600@1.46v@4.15hz All Cores</li>
+                  <li class="list-inline-item"><span class="text-info">RAM:</span>16GB DDR4@1900Mhz@C16 1T@1.5v</li>
+                  <li class="list-inline-item"><span class="text-info">MB:</span>X370-F Strix</li>
+                  <li class="list-inline-item"><span class="text-info">GPU:</span>GTX1080@2152/1300Mhz</li>
+                  <li class="list-inline-item"><span class="text-info">STORAGE:</span>NVME SSD 250GB</li>
+                  <li class="list-inline-item"><span class="text-info">STORAGE:</span>SATA SSD 250GB</li>
+                  <li class="list-inline-item"><span class="text-info">PSU:</span>Corsair 600Watt</li>
+                  <li class="list-inline-item"><span class="text-info">COMS:</span>Turtle Beach Headset</li>
+                  <li class="list-inline-item"><span class="text-info">COOLING:</span>Custom 120VGA + H100i</li>
+                  <li class="list-inline-item"><span class="text-info">RADS:</span>2x 240 AIO Radiators</li>
+                  <li class="list-inline-item"><span class="text-info">CASE:</span>MB511 RGB</li>
+                  <li class="list-inline-item"><span class="text-info">DISPLAY:</span>Omen 25" 144Hz</li>
               </div>
             </div>
-            </div>
+            <br>
+            <br>
+            <hr style="width:85%">
+          </div>
+        </div>
+      </div>
+      <!-- Accordion card -->
+
+    </div>
+    <!--Accordion wrapper-->
+
+
+
+    <!--bottom-->
+    <div class="container-fluid jmbotxt">
+      <br>
+      <br>
+      <h3 class="display-5 text-center">Thank you for browsing this page!</h3>
+      <br>
+      <br>
+      <p class="text-center">
+        Have a wonderful day.<br>
+        Best Regards.
+      </p>
+      <br>
+    </div>
+  </div>
+  </div>
+
+
+  <!--footer-->
+  <div class="container-fluid bg-primary">
+    <div class="row">
+      <div id="footerbnr" class="col justify-content-center rounded">
+        <p class="display-5  text-center pt-5">Date & Time: <span id="datetime"></span></p>
+        <p class="text-right ">Wimpzilla@08.29.2020</p>
+      </div>
+    </div>
+  </div>
 
 
 
 
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script>var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));</script>
-<script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');} </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>var dt = new Date(); document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt.getMonth() + 1)).slice(-2)) + "." + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2));</script>
+<script
+  type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); } </script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </html>

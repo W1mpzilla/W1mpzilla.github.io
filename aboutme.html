@@ -1,264 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet"> 
-    <title>Electronic Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+  <title>Davide Amoroso Electronic Portfolio</title>
 </head>
-<body  class="user-select-none"> 
+
+<body class="user-select-none">
 
 
-      <!--header-->
-      <div class="container-fluid">
-        <div class="row">
-          <div id="headerbnr" class="col rounded-top">        
-            <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>        
+  <!--Header-->
+  <div class="container-fluid">
+    <div class="row">
+      <div id="headerbnr" class="col rounded-top">
+        <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Navbar-->
+  <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
+    <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
+        </li>
+      </ul>
+      <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+        style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
+      <div id="google_translate_element" class="mr-4 d-inline"></div>
+    </div>
+  </nav>
+
+
+  <!--Accordion wrapper-->
+  <div class="accordion" id="accordionExample">
+
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Greetings, Welcome to my Eportfolio!
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseOne" class="collapse show jmbotxt" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Main-->
+          <div class="container">
+            <br>
+            <br>
+            <h1 class="display-4">About Me!</h1>
+            <br>
+            <h5><em>Hello, my name is Davide Amoroso, Welcome to my Eportfolio!</em></h5>
+            <br>
+            <br>
+            <p>
+            <h1 class="display-5">Skills</h1>
+            <br>
+            If i had to find an object that define me the best, i could definitely see myself as a Swiss army knife.
+            <br>
+            I can be a plus value to projects, bringing not only strong practical skills, but also strong intellectual
+            skills.
+            <br>
+            I'm an open minded person, i like to explore a broad range of fields, ranging from social, natural sciences,
+            formal sciences. <br>
+            My main field of study relate to the knowledge of the living, i got myself a master degree in molecular and
+            cellular biology.<br>
+            I'm also fond of formal sciences, having grown a passion especially toward physics and its modern technology
+            applications. <br>
+            <br>
+            I always loved to play with electronic hardware, until i realized i was still missing a big chunk of a
+            bigger
+            picture. <br>
+            Starting from scratch, i got the basics of computer architecture with VHDL and Assembly, moving later toward
+            higher programming languages. <br>
+            Giving me a better understanding of the digital process as a whole, from the hardware electronic layer to
+            the top
+            software layer. <br>
+            Modern electronics nowadays often offer a great range of features which only await to be implemented, that's
+            why i
+            got into software development. <br>
+            <br>
+            On overall, i'm a kind of multidisciplinary person, i like to work with science, technology, expanding their
+            applications in our daily life. <br>
+            What matters to me at the end, is the topic being interesting and challenging enough, if so i'm always ready
+            to
+            learn. <br>
+            </p>
+            <br>
+            <hr style="width:65%">
           </div>
         </div>
       </div>
+    </div>
+    <!-- Accordion card -->
 
 
-    <!--navbar-->
-    <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
-      <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
-          </li>
-        </ul>
-        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
-        <div id="google_translate_element" class="mr-4 d-inline"></div>
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Individual Interests And Knowledge Acquired During My Career.
+        </h2>
       </div>
-    </nav>
+      <!-- Card body -->
+      <div id="collapseTwo" class="collapse jmbotxt" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
 
-
-    <!--Main jumbotron-->
-    <div id="jmbotxtaboutme" class="jumbotron jumbotron-fluid bg-transparent mb-0">
-      <div class="container">
-        <br>
-        <br>
-        <h1 class="display-4">About Me!</h1>
-        <br>
-        <h5>Hello, my name is Davide Amoroso, Welcome to my eportfolio! </h5>
-        <br>
-        <br>
-        <p>
-            <h3><strong>Skills</strong></h3>
+          <!--List-->
+          <div class="container">
             <br>
-            If i had to find an object that define me the best, i could definitely see myself as a Swiss army knife. <br>
-            I can be a plus value to projects, bringing not only strong practical skills, but also strong intellectual skills. <br> 
-            I'm an open minded person, i like to explore a broad range of fields, ranging from social, natural sciences, formal sciences. <br>
-            My main field of study relate to the knowledge of the living, i got myself a master degree in molecular and cellular biology.<br>
-            I'm also fond of formal sciences, having grown a passion especially toward physics and its modern technology applications. <br>
             <br>
-            I always loved to play with electronic hardware, until i realized i was still missing a big chunk of a bigger picture. <br>
-            Starting from scratch, i got the basics of computer architecture with VHDL and Assembly, moving later toward higher programming languages. <br>
-            Giving me a better understanding of the digital process as a whole, from the hardware electronic layer to the top software layer. <br>
-            Modern electronics nowadays often offer a great range of features which only await to be implemented, that's why i got into software development. <br>
-            <br>  
-            On overall, i'm a kind of multidisciplinary person, i like to work with science, technology, expanding their applications in our daily life. <br>
-            What matters to me at the end, is the topic being interesting and challenging enough, if so i'm always ready to learn. <br>   
-        </p>
-        <br>
-        <br>
-        <br>
-        <hr style="width:65%"> 
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-            <!--List-->
-            <div>
-              <h3><strong>Individual interests and knowledge acquired during my career</strong></h3>
-              <br>
-              <br>
-              <div class="row">
-                <div class="col">
-                  <h5 class="mb-3"><strong><img src="images/icon_atom.png" alt="atom" style="margin-right: 10px " class="logo img-fluid" width="40px"> Formal Sciences</strong></h5>
-                  <ul class="list-unstyled">
-                    <li><u>General Physics</u></li>
-                    <ul>
-                      <li>Matter Behavior</li>
-                      <li>Bases Of Electromagnetism</li>
-                      <li>Bases Of Quantum Field Theory</li>
-                      <li>Bases Of Space & Time Theory</li>                     
-                    </ul>
-                    <br>
-                    <br>
-                    <li><u>Electrical Engineering</u></li>
-                    <ul>
-                      <li>Bases Of Electronics</li>                    
-                      <li>Bases Of Communication</li> 
-                      <li>Bases Of Photolithography</li>   
-                      <li>Bases Of Computer Engineering</li>                 
-                    </ul>
-                    <br>
-                    <br>
-                    <li><u>Computer Science</u></li>
-                    <ul>
-                      <li>Bases Of Statistics</li>
-                      <li>Low Level Languages <span class="notranslate">Assembly</span> & C</li>                     
-                      <li>High Level Languages Java, PHP, MySQL</li>
-                      <li>Bases Of Software QC & QA </li>   
-                      <li>Symfony Framework</li>                                       
-                    </ul>
-                  </ul>   
-                </div>
-                <div class="col">
-                  <h5 class="mb-3"><strong><img src="images/icon_dna.png" alt="dna" style="margin-right: 10px " class="logo img-fluid" width="20px" height="45px"> Natural Sciences</strong></h5>
-                  <ul class="list-unstyled">
-                    <li><u>Knowledge Of The Living</u></li>
-                    <ul>
-                      <li>Physiology & Cell Biology</li>
-                      <li>Neurosciences & Neurobiology</li>
-                      <li>Genetics & Molecular Biology</li>
-                      <li>Immunology & Microbiology</li>                     
-                    </ul>
-                    <br>
-                    <br>
-                    <li><u>Research & Projects</u></li>
-                    <ul>
-                      <li>Organize The Research Project</li>
-                      <li>Search Literature</li>
-                      <li>Review The State Of The Art</li>
-                      <li>Provide Comprehensive Solutions</li>                     
-                    </ul>
-                    <br>
-                    <br>
-                    <li><u>Laboratory Skills</u></li>
-                    <ul>
-                      <li>Lab Environment & Equipment Skills</li>
-                      <li>Lab Behavior & Safety Measures</li>
-                      <li>Experimental Design Skills</li>
-                      <li>Strong Biology Lab Techniques</li>                     
-                    </ul>
-                  </ul>   
-                </div>
-                <div class="col">
-                  <h5 class="mb-3"><strong><img src="images/icon_social.png" alt="dna" style="margin-right: 10px " class="logo img-fluid" width="50px">Social Sciences</strong></h5>
-                  <ul class="list-unstyled">  
-                    <li><u>Economics</u></li>
-                    <ul>
-                      <li>Bases Of Business & Markets</li> 
-                      <li>Bases Of Marketing & Consumer Behavior</li>                     
-                      <li>Bases Of Products Development</li>  
-                      <li>Bases Of Global Economics</li>                  
-                    </ul>
-                    <br>
-                    <br>
-                    <li><u>Sociology & History</u></li>
-                    <ul>
-                      <li>Bases of Human Kind Evolution</li>
-                      <li>Population Behavior & Evolution</li>
-                      <li>Media & Communication Evolution</li>                    
-                    </ul>
-                    <br>
-                    <br>
-                    <br>
-                    <li><u>Linguistics</u></li>
-                    <ul>
-                      <li>Italian Mother Tongue</li>
-                      <li>French Mother Tongue</li>
-                      <li>English Proficient</li>                    
-                    </ul>              
-                  </ul>   
-                </div>
+            <br>
+            <h1 class="display-5">Individual Interests And Knowledge Acquired During My Career</h1>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+              <div class="col">
+                <h5 class="mb-3"><strong><img src="images/icon_atom.png" alt="atom" style="margin-right: 10px "
+                      class="logo img-fluid" width="40px"> Formal Sciences</strong></h5>
+                <ul class="list-unstyled">
+                  <li><u>General Physics</u></li>
+                  <ul>
+                    <li>Matter Behavior</li>
+                    <li>Bases Of Electromagnetism</li>
+                    <li>Bases Of Quantum Field Theory</li>
+                    <li>Bases Of Space & Time Theory</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <li><u>Electrical Engineering</u></li>
+                  <ul>
+                    <li>Bases Of Electronics</li>
+                    <li>Bases Of Communication</li>
+                    <li>Bases Of Photolithography</li>
+                    <li>Bases Of Computer Engineering</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <li><u>Computer Science</u></li>
+                  <ul>
+                    <li>Bases Of Statistics</li>
+                    <li>Low Level Languages <span class="notranslate">Assembly</span> & C</li>
+                    <li>High Level Languages Java, PHP, MySQL</li>
+                    <li>Bases Of Software QC & QA </li>
+                    <li>Symfony Framework</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="col">
+                <h5 class="mb-3"><strong><img src="images/icon_dna.png" alt="dna" style="margin-right: 10px "
+                      class="logo img-fluid" width="20px" height="45px"> Natural Sciences</strong></h5>
+                <ul class="list-unstyled">
+                  <li><u>Knowledge Of The Living</u></li>
+                  <ul>
+                    <li>Physiology & Cell Biology</li>
+                    <li>Neurosciences & Neurobiology</li>
+                    <li>Genetics & Molecular Biology</li>
+                    <li>Immunology & Microbiology</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <li><u>Research & Projects</u></li>
+                  <ul>
+                    <li>Organize The Research Project</li>
+                    <li>Search Literature</li>
+                    <li>Review The State Of The Art</li>
+                    <li>Provide Comprehensive Solutions</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <li><u>Laboratory Skills</u></li>
+                  <ul>
+                    <li>Lab Environment & Equipment Skills</li>
+                    <li>Lab Behavior & Safety Measures</li>
+                    <li>Experimental Design Skills</li>
+                    <li>Strong Biology Lab Techniques</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="col">
+                <h5 class="mb-3"><strong><img src="images/icon_social.png" alt="dna" style="margin-right: 10px "
+                      class="logo img-fluid" width="50px">Social Sciences</strong></h5>
+                <ul class="list-unstyled">
+                  <li><u>Economics</u></li>
+                  <ul>
+                    <li>Bases Of Business & Markets</li>
+                    <li>Bases Of Marketing & Consumer Behavior</li>
+                    <li>Bases Of Products Development</li>
+                    <li>Bases Of Global Economics</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <li><u>Sociology & History</u></li>
+                  <ul>
+                    <li>Bases of Human Kind Evolution</li>
+                    <li>Population Behavior & Evolution</li>
+                    <li>Media & Communication Evolution</li>
+                  </ul>
+                  <br>
+                  <br>
+                  <br>
+                  <li><u>Linguistics</u></li>
+                  <ul>
+                    <li>Italian Mother Tongue</li>
+                    <li>French Mother Tongue</li>
+                    <li>English Proficient</li>
+                  </ul>
+                </ul>
               </div>
             </div>
             <br>
-            <br>
-            <br>
-            <hr style="width:65%"> 
-
-        
-            <!--second main-->
-            <br>
-            <br>
-            <br>
-                <p>
-                <h3><strong>Living Life</strong></h3>
-                <br>
-                I'm born in Genoa, the capital of the Liguria, a northern Italian region facing the Mediterranean Sea. <br>
-                I lived in a town not far from Genoa, in a locality called Italian Riviera, known for its small villages like Le Cinque Terre. <br>
-                When still very young, a career opportunity made my parents move to the French country side, in the Isere region, where i grew up. <br>
-                After getting my scientific high school graduation diploma, i followed my parents and moved back to my Italian home town. <br>
-                <br>
-                From here i enrolled the Biological Sciences degree course at the Genoa University, were i got my degree and master degree. <br>
-                Upon graduating, i was granted an internship at the Italian Institute of Technology in Genoa, where i worked on a neurobiology project. <br>
-                The paper published, i started looking for enrolling a PhD course, successfully winning a PhD scholarship in Marseille.<br>
-                I worked one year at the Immunology Center of Marseille-Luminy, before leaving the PhD course due to issues with the project.<br>
-                <br>
-                After being decieved by my PhD experiance and project, i decided to open up to other fields related to my personal interest.<br>
-                I initially found an occupation as park keeper, alongside i started learning on my own electronic and software development.<br>
-                While working, i got in touch with the AMD support team, applying as voluntary for AMD graphics drivers beta-tester program.<br>
-                I spent the next eight month after my park keeper occupation as voluntary beta-tester, troubleshooting and improving graphic drivers.<br>
-                Following this nice experience, i had to come back to a compensated position, i began looking for a new job as IT support.<br>
-                <br>
-                I got hired by a Montpelier company as roaming IT technician, for the Marseille-Aix-Orange region providing hardware support. <br>
-                Moving onward due to a growing numbers of corporations in the process of digital transform, i switched to OS deployment.<br>
-                I migrated to Windows 10 several Crédit Agricole offices in Marseille, before switching to the Marignane Airbus Helicopters site.<br>
-                After spending a year at Airbus between OS migration and broad IT support tasks, i got transferred to the AP-HM hospital. <br>
-                I worked at the Assistance Publique - Hôpitaux de Marseille a couple of months, until the COVID19 spread.<br>
-                <br>
-                At this point, having learnt the basics of software development by myself, i enrolled to a Symfony PHP MySQL programming training course. <br> 
-          </p>
-      </div>
-      <br>
-      <br>
-      <br>
-        <img id="vernazza" src="/images/pict_vernazza.png" alt="Vernazza" class="img-fluid">
-      <br>
-      <br>
-      <br>
-      <br>
-      <hr style="width:50%">
-      <br>
-      
-
-
-       <!--bottom-->
-            <div class="container">
-              <br>
-              <br>                 
-              <h3 class="display-5 text-center">Thank you for browsing this page!</h3>  
-              <br>
-              <br>                
-              <p class="text-center">
-                Have a wonderful day.<br>
-                Best Regards.
-              </p>      
-              <br>
-              </div>    
-    </div>
-   
-
-     <!--footer-->
-    <div class="container-fluid bg-primary">
-      <div class="row">
-        <div id="footerbnr" class="col justify-content-center rounded">
-          <p class="display-5 text-center pt-5">Date & Time: <span id="datetime"></span></p>
-          <p class="text-right ">Wimpzilla@08.29.2020</p>
+            <hr style="width:65%">
+          </div>
         </div>
       </div>
+    </div>
+    <!-- Accordion card -->
 
-    
+
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Living Life
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseThree" class="collapse jmbotxt" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Second main-->
+          <div class="container">
+            <p>
+              <br>
+              <br>
+            <h1 class="display-5">Living Life.</h1>
+            <br>
+            I'm born in Genoa, the capital of the Liguria, a northern Italian region facing the Mediterranean Sea. <br>
+            I lived in a town not far from Genoa, in a locality called Italian Riviera, known for its small villages
+            like Le
+            Cinque Terre. <br>
+            When still very young, a career opportunity made my parents move to the French country side, in the Isere
+            region,
+            where i grew up. <br>
+            After getting my scientific high school graduation diploma, i followed my parents and moved back to my
+            Italian
+            home town. <br>
+            <br>
+            From here i enrolled the Biological Sciences degree course at the Genoa University, were i got my degree and
+            master degree. <br>
+            Upon graduating, i was granted an internship at the Italian Institute of Technology in Genoa, where i worked
+            on a
+            neurobiology project. <br>
+            The paper published, i started looking for enrolling a PhD course, successfully winning a PhD scholarship in
+            Marseille.<br>
+            I worked one year at the Immunology Center of Marseille-Luminy, before leaving the PhD course due to issues
+            with
+            the project.<br>
+            <br>
+            After being decieved by my PhD experiance and project, i decided to open up to other fields related to my
+            personal
+            interest.<br>
+            I initially found an occupation as park keeper, alongside i started learning on my own electronic and
+            software
+            development.<br>
+            While working, i got in touch with the AMD support team, applying as voluntary for AMD graphics drivers
+            beta-tester program.<br>
+            I spent the next eight month after my park keeper occupation as voluntary beta-tester, troubleshooting and
+            improving graphic drivers.<br>
+            Following this nice experience, i had to come back to a compensated position, i began looking for a new job
+            as IT
+            support.<br>
+            <br>
+            I got hired by a Montpelier company as roaming IT technician, for the Marseille-Aix-Orange region providing
+            hardware support. <br>
+            Moving onward due to a growing numbers of corporations in the process of digital transform, i switched to OS
+            deployment.<br>
+            I migrated to Windows 10 several Crédit Agricole offices in Marseille, before switching to the Marignane
+            Airbus
+            Helicopters site.<br>
+            After spending a year at Airbus between OS migration and broad IT support tasks, i got transferred to the
+            AP-HM
+            hospital. <br>
+            I worked at the Assistance Publique - Hôpitaux de Marseille a couple of months, until the COVID19
+            spread.<br>
+            <br>
+            At this point, having learnt the basics of software development by myself, i enrolled to a Symfony PHP MySQL
+            programming training course. <br>
+            </p>
+          </div>
+        </div>
+        <br>
+        <img id="vernazza" src="/images/pict_vernazza.png" alt="Vernazza" class="img-fluid">
+        <br>
+        <hr style="width:65%">
+        <br>
+      </div>
+    </div>
+    <!-- Accordion card -->
+
+  </div>
+  <!--Accordion wrapper-->
+
+
+
+  <!--Bottom-->
+  <div class="container-fuild jmbotxt">
+    <br>
+    <br>
+    <h3 class="display-5 text-center">Thank you for browsing this page!</h3>
+    <br>
+    <br>
+    <p class="text-center">
+      Have a wonderful day.<br>
+      Best Regards.
+    </p>
+    <br>
+  </div>
+  </div>
+
+
+
+  <!--Footer-->
+  <div class="container-fluid bg-primary">
+    <div class="row">
+      <div id="footerbnr" class="col justify-content-center rounded">
+        <p class="display-5 text-center pt-5">Date & Time: <span id="datetime"></span></p>
+        <p class="text-right ">Wimpzilla@08.29.2020</p>
+      </div>
+    </div>
+
+
+
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script>var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));</script>
-<script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');} </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>var dt = new Date(); document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt.getMonth() + 1)).slice(-2)) + "." + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2));</script>
+<script
+  type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); } </script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+  $(document).ready(function () {
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function () {
+      $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+  });
+</script>
+<script>
+  //Scroll to the top when accordion open
+  function scrollToTop() {
+    $(window).scrollTop(0);
+  } 
+</script>
+
 </html>

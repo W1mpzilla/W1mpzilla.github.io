@@ -1,300 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet"> 
-    <title>Electronic Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Davide Amoroso Electronic Portfolio</title>
 </head>
-<body class="user-select-none"> 
+
+<body class="user-select-none">
 
 
-    <!--header-->
-    <div class="container-fluid">
-      <div class="row">
-        <div id="headerbnr" class="col rounded-top">        
-          <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>        
+
+  <!--Header-->
+  <div class="container-fluid">
+    <div class="row">
+      <div id="headerbnr" class="col rounded-top">
+        <h1 class="text-center"><img src="/images/eportfolio_bnr.png" class="img-fluid" alt="logo"></h1>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Navbar-->
+  <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
+    <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
+        </li>
+      </ul>
+      <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+        style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
+      <div id="google_translate_element" class="mr-4 d-inline"></div>
+    </div>
+  </nav>
+
+
+
+  <!--Accordion wrapper-->
+  <div class="accordion" id="accordionExample">
+
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Hello There!
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseOne" class="collapse show jmbotxt" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Main jumbotron-->
+          <div class="container">
+            <br>
+            <br>
+            <h1 class="display-4 ">Hello There!</h1>
+            <br>
+            <br>
+            <br>
+            <p class="mb-0">Welcome to my Electronic Portfolio.</p>
+            <p class="mb-0">Feel free to translate the pages to your preferred language, through the translate form
+              provided by <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+                style="margin-left: 5px" alt="Google" width="65px">.</p><br>
+            <p class="mb-0">This site was written as an exercise given while following a <u>Symfony PHP MySQL</u>
+              training course in 2020.</p>
+            <p class="mb-0">Developed first with <strong>Visual Studio Code</strong> <img
+                src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg"
+                alt="VS logo" class="logo img-fluid" width="18px">, the code is then hosted by the Microsoft development
+              service <img src="https://pages.github.com/images/logo.svg" alt="GitHub Pages" style="margin-left: 2px "
+                class="logo img-fluid" width="100px">.</p>
+            <p class="mb-0">It quickly lists popular Web design tools and sums up how Web contents can be produced with
+              the Bootstrap framework.</p>
+            <p class="mb-0">The exercise end goal was to develop an eportfolio destined to improve the odds of being
+              hired after ending the course.</p>
+          </div>
+          <br>
+          <br>
+          <hr style="width:50%">
         </div>
       </div>
     </div>
+    <!-- Accordion card -->
 
 
-    <!--navbar-->
-    <nav id="navtxt" class="navbar sticky-top navbar-expand-sm navbar-dark rounded-bottom">
-      <a class="navbar-brand ml-3" href="index.html"><span class="notranslate">HOME</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="aboutme.html">ABOUT ME<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="resume.html"><span class="notranslate">RESUME</span></a>
-          </li>
-        </ul>
-        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" class="mr-3" width="100px">
-        <div id="google_translate_element" class="mr-4 d-inline"></div>
+
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            What I Have Learnt Attending The Symfony Course ?
+        </h2>
       </div>
-    </nav>
+      <!-- Card body -->
+      <div id="collapseTwo" class="collapse jmbotxt" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
 
-
-    <!--Main jumbotron-->
-    <div id="jmbotxt" class="jumbotron jumbotron-fluid bg-transparent mb-0">
-
-          <div class="container">
-            <br>
-            <br>                 
-            <h1 class="display-4 ">Hello There!</h1>
-            <br>
-            <br>  
-            <br>
-            <br>
-            <br>
-                <p class="mb-0">Welcome to my Electronic Portfolio.</p>
-                <p class="mb-0">Feel free to translate the pages to your preferred language, through the translate form provided by <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" style="margin-left: 5px" alt="Google" width="65px">.</p><br>
-                <p class="mb-0">This site was written as an exercise given while following a <u>Symfony PHP MySQL</u> training course in 2020.</p>
-                <p class="mb-0">Developed first with <strong>Visual Studio Code</strong> <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg" alt="VS logo" class="logo img-fluid" width="18px" >, the code is then hosted by the Microsoft development service <img src="https://pages.github.com/images/logo.svg" alt="GitHub Pages" style="margin-left: 2px " class="logo img-fluid" width="100px">.</p>
-                <p class="mb-0">It quickly lists popular Web design tools and sums up how Web contents can be produced with the Bootstrap framework.</p> 
-                <p class="mb-0">The exercise end goal was to develop an eportfolio destined to improve the odds of being hired after ending the course.</p>            
-            <br>
-            <br>
-            <br>
-            <br>  
-            <br>   
-          </div>    
-          <hr style="width:50%">  
-          
-
-              <!--list-->    
-              <div class="container-fluid" style="width: 75%">                
-                <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5"><a href="" data-toggle="modal" data-target="#myModal" class="text-decoration-none">What i have learnt attending the Symfony PHP MySQL course ?</a></h1>
-                <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img src="/images/course_pop.png" class="img-fluid" alt="course">
-                        </div>
-                    </div>
+          <!--List-->
+          <div class="container-fluid" style="width: 75%">
+            <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5"><a href="" data-toggle="modal"
+                data-target="#myModal" class="text-decoration-none"> What I Have Learnt Attending The Symfony Course
+                ?</a></h1>
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="/images/course_pop.png" class="img-fluid" alt="course">
                   </div>
                 </div>
-                <br>
-                <br>
-                <p class="text-center"><u>A quick list of the few development concept and tools i have gone through during the course:</u></p> 
-                <br>
-                <br>
-                <div>
-                  <div class="row ml-5">
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong><a href="https://symfony.com/" class="text-decoration-none">Symfony Framework</a></strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>Symfony 5 Development</li>
-                            <li>Services & Config & HttpKernel</li>
-                            <li>Doctrine & Database</li>
-                            <li>RESTful OpenAPI</li>
-                          </ul>
-                        </li>
+              </div>
+            </div>
+            <br>
+            <br>
+            <p class="text-center"><em>A quick list of the few development concept and tools i have gone through during
+                the course:</em></p>
+            <br>
+            <br>
+            <div>
+              <div class="row ml-5">
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong><a href="https://symfony.com/" class="text-decoration-none">Symfony
+                            Framework</a></strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>Symfony 5 Development</li>
+                        <li>Twig & Controllers</li>
+                        <li>Services & Config & HttpKernel</li>
+                        <li>Doctrine & Database</li>
+                        <li>RESTful OpenAPI</li>
                       </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>Web Glossary</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>Web Terms</li>
-                            <li>Web Programming Languages</li>
-                            <li>Web Infrastructure</li>
-                            <li>Web Protocols</li>
-                          </ul>
-                        </li>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>Web Glossary</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>Web Terms</li>
+                        <li>Web Programming Languages</li>
+                        <li>Web Infrastructure</li>
+                        <li>Web Protocols</li>
                       </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>Algorithmic</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>Introduction To Programming</li>
-                            <li>NetBeans IDE & Java</li>
-                            <li>Variables Types & Operators</li>
-                            <li>Loops & Arrays & Strings & Functions...</li>
-                          </ul>
-                        </li>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>Algorithmic</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>Introduction To Programming</li>
+                        <li>NetBeans IDE & Java</li>
+                        <li>Variables Types & Operators</li>
+                        <li>Loops & Arrays & Strings & Functions...</li>
                       </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>Web Development</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>Visual Studio Code IDE</li>
-                            <li>HTML & CSS Styles</li>
-                            <li>Bootstrap Framework</li>
-                            <li>Agile & Scrum Methodology</li>
-                          </ul>
-                        </li>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>Web Development</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>Visual Studio Code IDE</li>
+                        <li>HTML & CSS Styles</li>
+                        <li>Bootstrap Framework</li>
+                        <li>Agile & Scrum Methodology</li>
                       </ul>
-                    </div>
-                  </div>
-                  <br>
-                  <br>
-                  <div class="row ml-5">
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>Object Oriented OOP</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>Class Constructors</li>
-                            <li>Object & Collections</li>
-                            <li>Abstraction & Polymorphism</li>
-                            <li>Inheritance & Encapsulation</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>PHP</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>WampServer Setup</li>
-                            <li>PHP Procedural & Object Oriented</li>
-                            <li>Data Handling & Form Validation</li>
-                            <li>PDO & MySLQi Database Extensions</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>MySQL</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li>MySQL Statements & Queries</li>
-                            <li>MySQL Views</li>
-                            <li>MySQL Server & <span class="notranslate">Workbench</span> Setup</li>
-                            <li>MySQL Stored Routines</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <h6><u><strong>Information Modelling</strong></u></h6>
-                        <li>
-                          <ul>
-                            <li><a href="http://bliaudet.free.fr/article.php3?id_article=173" class="text-decoration-none">Merise Method</a></li>
-                            <li>Database Development</li>
-                            <li>UML Standard</li>
-                            <li>Structural & Behavioral Diagrams</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>              
+                    </li>
+                  </ul>
+                </div>
               </div>
               <br>
               <br>
-              <br>
-              <hr style="width:50%">
-
-
-            <!--card-->    
-            <div class="container-fluid" style="width: 80%">                
-              <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">How This Site Has Been Made?</h1>
-              <br>
-              <br>
-              <p class="text-center"><u>The site has been written from scratch using the documentation of the following components instead of using a prebuilt layout:</u></p> 
-              <br>
-              <br>
-              <div id="cardtxt" class="row pt-4 pb-5">
-                  <div class="col pagination justify-content-center">
-                    <div class="card" style="width: 220px;">
-                    <img src="/images/card_html.png" class="card-img-top img-fluid" alt="html icon">
-                      <div class="card-body">
-                        <h3 class="card-title">HTML</h3>
-                        <p class="card-text "> HTML is the most basic building block of the Web by defining the meaning and structure of web content.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col pagination justify-content-center">
-                    <div class="card" style="width: 220px;">
-                      <img src="/images/card_bootstrap.png" class="card-img-top img-fluid" alt="bootstrap icon">
-                      <div class="card-body">
-                        <h3 class="card-title"><br><span class="notranslate">Bootstrap</span></h3>
-                        <p class="card-text ">Bootstrap is the most popular CSS framework for developing responsive and mobile-first websites.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col pagination justify-content-center">
-                    <div class="card" style="width: 220px;">
-                      <img src="/images/card_javascript.png" class="card-img-top img-fluid" alt="javascript icon">
-                      <div class="card-body">
-                        <h3 class="card-title">JavaScript</h3>
-                        <p class="card-text">Provides tools to help Web developers to build dynamic and interactive contents embedded into web pages.</p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="row ml-5">
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>Object Oriented OOP</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>Class Constructors</li>
+                        <li>Object & Collections</li>
+                        <li>Abstraction & Polymorphism</li>
+                        <li>Inheritance & Encapsulation</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>PHP</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>WampServer Setup</li>
+                        <li>PHP Procedural & Object Oriented</li>
+                        <li>Data Handling & Form Validation</li>
+                        <li>PDO & MySLQi Database Extensions</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>MySQL</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li>MySQL Statements & Queries</li>
+                        <li>MySQL Views</li>
+                        <li>MySQL Server & <span class="notranslate">Workbench</span> Setup</li>
+                        <li>MySQL Stored Routines</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <h6><u><strong>Information Modelling</strong></u></h6>
+                    <li>
+                      <ul>
+                        <li><a href="http://bliaudet.free.fr/article.php3?id_article=173"
+                            class="text-decoration-none">Merise Method</a></li>
+                        <li>Database Development</li>
+                        <li>UML Standard</li>
+                        <li>Structural & Behavioral Diagrams</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
+            </div>
           </div>
-      <br>
-      <br>
-      <hr style="width:50%">
+          <br>
+          <hr style="width:50%">
+        </div>
+      </div>
+    </div>
+    <!-- Accordion card -->
 
 
-          <!--media list-->
-          <div class="container">                                        
-            <h1 class="display-5 text-center pb-5 mb-5 mt-5 pt-5">Web Features Embedded Into The Page?</h1>                                   
-            <p><u>A quick list of the few Web design features embedded into the page:</u></p> 
+
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            How This Site Has Been Made?
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseThree" class="collapse jmbotxt" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Cards-->
+          <div class="container-fluid" style="width: 80%">
+            <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">How This Site Has Been Made?</h1>
+            <br>
+            <br>
+            <p class="text-center"><em>The site has been written from scratch using the documentation of the following
+                components instead of using a prebuilt layout:</em></p>
+            <br>
+            <br>
+            <div id="cardtxt" class="row pt-4 pb-5">
+              <div class="col pagination justify-content-center">
+                <div class="card" style="width: 220px;">
+                  <img src="/images/card_html.png" class="card-img-top img-fluid" alt="html icon">
+                  <div class="card-body">
+                    <h3 class="card-title">HTML</h3>
+                    <p class="card-text "> HTML is the most basic building block of the Web by defining the meaning and
+                      structure of web content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col pagination justify-content-center">
+                <div class="card" style="width: 220px;">
+                  <img src="/images/card_bootstrap.png" class="card-img-top img-fluid" alt="bootstrap icon">
+                  <div class="card-body">
+                    <h3 class="card-title"><br><span class="notranslate">Bootstrap</span></h3>
+                    <p class="card-text ">Bootstrap is the most popular CSS framework for developing responsive and
+                      mobile-first websites.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col pagination justify-content-center">
+                <div class="card" style="width: 220px;">
+                  <img src="/images/card_javascript.png" class="card-img-top img-fluid" alt="javascript icon">
+                  <div class="card-body">
+                    <h3 class="card-title">JavaScript</h3>
+                    <p class="card-text">Provides tools to help Web developers to build dynamic and interactive contents
+                      embedded into web pages.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="width:50%">
+        </div>
+      </div>
+    </div>
+    <!-- Accordion card -->
+
+
+
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingFour">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Web Features Embedded Into The Page?
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseFour" class="collapse jmbotxt" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Media list-->
+          <div class="container">
+            <h1 class="display-5 text-center pb-5 mb-5 mt-5 pt-5">Web Features Embedded Into The Page?</h1>
+            <p class="text-center"><em>A quick list of the few Web design features embedded into the page:</em></p>
             <br>
             <ul class="list-unstyled">
-                <li class="media my-4">
-                  <img src="/images/media_responsive.png" class="img-fluid mr-5" alt="arrow icon">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1"><span class="notranslate">Responsive</span></h5>
-                    <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it looks good on all devices from desktops to tablets and smartphones.
+              <li class="media my-4">
+                <img src="/images/media_responsive.png" class="img-fluid mr-5" alt="arrow icon">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1"><span class="notranslate">Responsive</span></h5>
+                  <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or
+                    enlarge, a website.<br>
+                    To make it looks good on all devices from desktops going down to tablets and smartphones.
                     <br>
-                    This page will resize automatically if the browser shrunks or if viewed on a smartphone.</p> 
-                  </div>
-                </li>
-                <br>
-                <li class="media my-4">
-                  <img src="/images/media_css.png" class="img-fluid mr-5" alt="css icon">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">Additional CSS sheet</h5>
-                    <p>
-                     Developers often override or customize default Bootstrap CSS styles when working on web development projects.<br>
-                     Most developers do it to make changes to Bootstrap fonts, borders, colors, or other Bootstrap styles. 
-                     <br>
-                     In this page the main background color, the layout, the font style are added on top of the Bootstrap styles.
-                   </p>
-                  </div>
-                </li>
-                <br>
-                <li class="media my-4">
-                  <img src="/images/media_jscript.png" class="img-fluid mr-5" alt="script icon">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">Scripts</h5>
-                    <p>A dynamic page can send and update informations that were not available when the web page was created.
+                    This page will resize automatically if the browser shrunks or if viewed on a smartphone.</p>
+                </div>
+              </li>
+              <br>
+              <li class="media my-4">
+                <img src="/images/media_css.png" class="img-fluid mr-5" alt="css icon">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">Additional CSS sheet</h5>
+                  <p>
+                    Developers often override or customize default Bootstrap CSS styles when working on web development
+                    projects.<br>
+                    Most developers do it to make changes to Bootstrap fonts, borders, colors, or other Bootstrap
+                    styles.
                     <br>
-                    Scripts can be viewed as small computer programs written in a variety of scripting languages like JavaScript, VBScript, Perl, PHP, ASP, updating dynamically the page information.
-                    In this page the Translate form, the date, the time, the font type, etc, come from scripts.</p>
-                  </div>
-                </li>
-            </ul>       
-            <br>    
-            <br> 
-          </div> 
+                    In this page the main background color, the layout, the font style are added on top of the Bootstrap
+                    styles.
+                  </p>
+                </div>
+              </li>
+              <br>
+              <li class="media my-4">
+                <img src="/images/media_jscript.png" class="img-fluid mr-5" alt="script icon">
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">Scripts</h5>
+                  <p>A dynamic page can send and update informations that were not available when the web page was
+                    created.
+                    <br>
+                    Scripts can be viewed as small computer programs written in a variety of scripting languages like
+                    JavaScript. <br>
+                    In this page the translate form, the date, the page scrolling, come from scripts updating
+                    dynamically the page.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
           <hr style="width:50%">
+        </div>
+      </div>
+    </div>
+    <!-- Accordion card -->
 
 
-          <!--carousel-->
+
+    <!-- Accordion card -->
+    <div class="card">
+      <div class="card-header jmbotxt" id="headingFive">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-info" type="button"
+            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"
+            onclick="scrollToTop()"><i class="fa fa-plus"></i>
+            Web Development Tools?
+          </button>
+        </h2>
+      </div>
+      <!-- Card body -->
+      <div id="collapseFive" class="collapse jmbotxt" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
+
+          <!--Carousel-->
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <h1 id="cardheader" class="display-5 text-center mb-5 mt-5 pt-5">Web Development Tools?</h1>
             <br>
@@ -308,25 +428,33 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
-              <p class="text-center"><u>A quick list of few popular Web design tools from <a href="https://www.freecodecamp.org/news/web-development-2020/" class="text-decoration-none">this</a> article:</u></p> 
+              <p class="text-center"><em>A quick list of few popular Web design tools from <a
+                    href="https://www.freecodecamp.org/news/web-development-2020/" class="text-decoration-none">this</a>
+                  article:</em></p>
               <br>
               <div class="carousel-item active">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--2-.png" class="d-inherit w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--2-.png"
+                  class="d-inherit w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--4-.png" class="d-block w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--4-.png"
+                  class="d-block w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--5-.png" class="d-block w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--5-.png"
+                  class="d-block w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--6-.png" class="d-block w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--6-.png"
+                  class="d-block w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--7-.png" class="d-block w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--7-.png"
+                  class="d-block w-30 img-fluid" alt="slide">
               </div>
               <div class="carousel-item">
-                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--8-.png" class="d-block w-30 img-fluid" alt="slide">
+                <img src="https://www.freecodecamp.org/news/content/images/2019/12/download--8-.png"
+                  class="d-block w-30 img-fluid" alt="slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -337,58 +465,91 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-            <br>
-            <br>
-            <br>
           </div>
-          <br>
           <br>
           <br>
           <hr style="width:50%">
-          <br>
-          <br>
-
-
-          <!--bottom-->
-          <div class="container">
-            <br>                 
-            <h3 class="display-5 text-center">Thank you for browsing this page!</h3> 
-            <br>
-            <br>               
-            <p class="text-center">
-              Feel free to navigate through the <a href="aboutme.html" class="text-decoration-none">About Me</a> and the <a href="resume.html" class="text-decoration-none">Resume</a> page.
-              <br>
-              <br>
-              Have a wonderful day.
-              <br>
-              Best Regards.
-            </p>      
-            <br> 
-          </div>    
-      </div>
-
-
-      <!--footer-->
-      <div class="container-fluid bg-primary">
-        <div class="row">
-          <div id="footerbnr" class="col justify-content-center rounded">    
-            <p class="display-5 text-center pt-5">Date & Time: <span id="datetime"></span></p>
-            <p class="text-right">Wimpzilla@08.29.2020</p>
-          </div>
         </div>
       </div>
-  
-  
-  
+    </div>
+    <!-- Accordion card -->
 
-    
-    
-    
+  </div>
+  <!-- Accordion wrapper -->
+
+
+
+  <!--Bottom-->
+  <div class="container-fluid jmbotxt">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="display-5 text-center">Thank you for browsing this page!</h3>
+    <br>
+    <br>
+    <p class="text-center">
+      Feel free to navigate through the <a href="aboutme.html" class="text-decoration-none">About Me</a> and the <a
+        href="resume.html" class="text-decoration-none">Resume</a> page.
+      <br>
+      <br>
+      Have a wonderful day.
+      <br>
+      Best Regards.
+    </p>
+    <br>
+  </div>
+
+
+
+  <!--Footer-->
+  <div class="container-fluid bg-primary">
+    <div class="row">
+      <div id="footerbnr" class="col justify-content-center rounded">
+        <p class="display-5 text-center pt-5">Date & Time: <span id="datetime"></span></p>
+        <p class="text-right">Wimpzilla@08.29.2020</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script>var dt = new Date();document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));</script>
-<script type="text/javascript">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');} </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>var dt = new Date(); document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt.getMonth() + 1)).slice(-2)) + "." + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2));</script>
+<script
+  type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); } </script>
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+  $(document).ready(function () {
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function () {
+      $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+  });
+</script>
+<script>
+  //Scroll to the top when accordion open
+  function scrollToTop() {
+    $(window).scrollTop(0);
+  } 
+</script>
+
 </html>
