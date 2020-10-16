@@ -67,26 +67,24 @@
         <div class="card-body">
 
           <!--Main pdf-->
-          <div id="" class="container jmbotxt bg-transparent mb-0">
-            <div class="container">
-              <br>
-              <br>
-              <h1 class="display-5"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
-                  class="text-decoration-none">LinkedIn
-                  Profile Link</a> And Downloadable Resume</h1>
-              <br>
-              <br>
-              <br>
-              <object data="files/da_cv_resume.pdf" type="application/pdf" width="100%" height="1000px">
-                <p>It appears you don't have a PDF plugin for this browser.
-                  You can <a href="files/da_cv_resume.pdf">click here to
-                    download the PDF file.</a></p>
-              </object>
-              <br>
-              <br>
-              <br>
-              <hr style="width:85%">
-            </div>
+          <div class="container jmbotxt bg-transparent mb-0">
+            <br>
+            <br>
+            <h1 class="display-5"><a href="https://www.linkedin.com/in/davide-amoroso-39b03a6a/"
+                class="text-decoration-none">LinkedIn
+                Profile Link</a> And Downloadable Resume</h1>
+            <br>
+            <br>
+            <br>
+            <object data="files/da_cv_resume.pdf" type="application/pdf" width="100%" height="500px">
+              <p>It appears you don't have a PDF plugin for this browser.
+                You can <a href="files/da_cv_resume.pdf">click here to
+                  download the PDF file.</a></p>
+            </object>
+            <br>
+            <br>
+            <br>
+            <hr style="width:85%">
           </div>
         </div>
       </div>
@@ -183,5 +181,26 @@
   type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); } </script>
 <script type="text/javascript"
   src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+  $(document).ready(function () {
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function () {
+      $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function () {
+      $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+  });
+</script>
+<script>
+  //Scroll to the top when accordion open
+  function scrollToTop() {
+    $(window).scrollTop(0);
+  } 
+</script>
 
 </html>
